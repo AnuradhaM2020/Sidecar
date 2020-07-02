@@ -3,7 +3,6 @@ com\sidecar\codingtest\model\AuthenticationRequest.class
 com\sidecar\codingtest\SecurityConfigurer.class
 com\sidecar\codingtest\service\UserDetailService.class
 com\sidecar\codingtest\controller\UserController.class
-com\sidecar\codingtest\configuration\SwaggerCinfigurer.class
 com\sidecar\codingtest\repository\EmployeeRepository.class
 com\sidecar\codingtest\model\AuthenticationResponse.class
 com\sidecar\codingtest\constants\SecurityConstants.class
@@ -15,5 +14,6 @@ com\sidecar\codingtest\model\Employee.class
 com\sidecar\codingtest\repository\UserRepository.class
 com\sidecar\codingtest\model\UserEntity.class
 com\sidecar\codingtest\VO\EmployeeVO.class
+com\sidecar\codingtest\configuration\SwaggerConfigurer.class
 com\sidecar\codingtest\CodingtestApplication.class
 com\sidecar\codingtest\service\EmployeeSevice.class
