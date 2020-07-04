@@ -18,6 +18,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.sidecar.codingtest.VO.EmployeeVO;
 import com.sidecar.codingtest.service.EmployeeSevice;
 
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
+
 @RestController
 @RequestMapping("/api/v1")
 public class EmployeeController {
@@ -27,7 +30,7 @@ public class EmployeeController {
 
 	private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 	
-	
+	@ApiOperation(value = "/employees")
 	@GetMapping("/employees")
 	public ResponseEntity<List<EmployeeVO>> getAllEmployees() {
 		LOGGER.info("getAllEmployees in EmployeeController");
@@ -35,28 +38,31 @@ public class EmployeeController {
 		List<EmployeeVO> employees = employeeSevice.getAllEmployees();
 		return new ResponseEntity<List<EmployeeVO>>(employees, HttpStatus.OK);
 	}
-
+	@ApiOperation(value = "/employee/{id}")
 	@RequestMapping("/employee/{id}")
 	public ResponseEntity<EmployeeVO> getEmployee(@PathVariable int id) throws NoSuchElementException {
 		LOGGER.info("getEmployee in EmployeeController");
 		EmployeeVO empVo = employeeSevice.getEmployee(id);
 		return new ResponseEntity<EmployeeVO>(empVo, HttpStatus.OK);
 	}
-
+	@ApiOperation(value = "/employee")
+	@ApiImplicitParam(
+	        name = "employeeVo",
+	        dataType = "EmployeeVO")
 	@RequestMapping(method = RequestMethod.POST, value = "/employee")
 	public ResponseEntity<Integer> addEmployee(@RequestBody EmployeeVO employeeVo) {
 		LOGGER.info("addEmployee in EmployeeController");
 		EmployeeVO empVo = employeeSevice.addEmployee(employeeVo);
 		return new ResponseEntity<>(empVo.getId(), HttpStatus.CREATED);
 	}
-
+	@ApiOperation(value = "/employee/{id}")
 	@RequestMapping(method = RequestMethod.PUT, value = "/employee/{id}")
 	public ResponseEntity<EmployeeVO> updateEmployee(@PathVariable int id, @RequestBody EmployeeVO employeevo) {
 		LOGGER.info("updateEmployee in EmployeeController");
 		EmployeeVO empvVo = employeeSevice.updateEmployee(id, employeevo);
 		return new ResponseEntity<EmployeeVO>(empvVo, HttpStatus.OK);
 	}
-
+	@ApiOperation(value = "/employee/{id}")
 	@RequestMapping(method = RequestMethod.DELETE, value = "/employee/{id}")
 	public ResponseEntity<String> deleteEmployee(@PathVariable int id) {
 		LOGGER.info("deleteEmployee in EmployeeController");

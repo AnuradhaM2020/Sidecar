@@ -56,12 +56,12 @@ public class SecurityConfigurer extends WebSecurityConfigurerAdapter {
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-		http.csrf().disable().authorizeRequests().antMatchers(SecurityConstants.LOG_IN_URL).permitAll().anyRequest()
-				.authenticated().and().exceptionHandling().and().sessionManagement()
+		http.csrf().disable().authorizeRequests().antMatchers(SecurityConstants.LOG_IN_URL).permitAll()
+		.antMatchers("/v2/api-docs","/swagger-resources/**","/swagger-ui.html**","/webjars/**").permitAll()
+		.anyRequest().authenticated().and().exceptionHandling().and().sessionManagement()
 				.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 		// .and().antMatcher("/api/v1/sign-up").anonymous().disable()
 		http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
-
 	}
 	
 	@Override

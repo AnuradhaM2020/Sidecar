@@ -1,6 +1,7 @@
 
 package com.sidecar.codingtest.configuration;
 
+import java.time.temporal.Temporal;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -11,6 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
@@ -22,6 +25,7 @@ import com.sidecar.codingtest.controller.EmployeeController;
 import com.sidecar.codingtest.controller.UserController;
 import com.sidecar.codingtest.filter.JwtFilter;
 
+import io.swagger.models.auth.In;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
@@ -43,8 +47,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
 @Configuration
 
 @EnableSwagger2WebMvc
-
 @ComponentScan(basePackageClasses = { EmployeeController.class, UserController.class })
+@Import(springfox.documentation.spring.data.rest.configuration.SpringDataRestConfiguration.class)
 public class SwaggerConfigurer {
 
 	private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
@@ -55,27 +59,31 @@ public class SwaggerConfigurer {
 	@Bean
 	public Docket swaggerConfiguration() {
 		LOGGER.info("inside SwaggerCinfigurer");
+
 		final List<ResponseMessage> globalResponses = Arrays.asList(
 				new ResponseMessageBuilder().code(200).message("OK").build(),
 				new ResponseMessageBuilder().code(400).message("Bad Request").build(),
 				new ResponseMessageBuilder().code(500).message("Internal Error").build());
-		return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select().apis(RequestHandlerSelectors.any())
+
+		return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
+				.apis(RequestHandlerSelectors.basePackage("com.sidecar.codingtest.controller"))
 				.paths(PathSelectors.regex("/api/v1.*")).build().pathMapping("/")
-				.genericModelSubstitutes(ResponseEntity.class).securitySchemes(Arrays.asList(apiKey()))
+				.genericModelSubstitutes(ResponseEntity.class)
+				.directModelSubstitute(Temporal.class, String.class)
+				.securitySchemes(Arrays.asList(apiKey()))
 				.useDefaultResponseMessages(false).globalResponseMessage(RequestMethod.GET, globalResponses)
 				.globalResponseMessage(RequestMethod.POST, globalResponses)
 				.globalResponseMessage(RequestMethod.DELETE, globalResponses)
 				.securityContexts(Collections.singletonList(securityContext()));
-
 	}
 
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder().title("Sidecar SpringBoot Project").description("Spring Boot REST API")
-				.termsOfServiceUrl("http://localhost:8080").version("1.0").build();
+				.termsOfServiceUrl("www.sidecar.com").version("1.0").build();
 	}
 
 	private ApiKey apiKey() {
-		return new ApiKey("jwt", "Authorization", "header");
+		return new ApiKey("jwt", HttpHeaders.AUTHORIZATION, In.HEADER.name());
 	}
 
 	private SecurityContext securityContext() {
@@ -88,23 +96,5 @@ public class SwaggerConfigurer {
 		authorizationScopes[0] = authorizationScope;
 		return Collections.singletonList(new SecurityReference("jwt", authorizationScopes));
 	}
-
-	@Bean
-	SecurityConfiguration security() {
-		return SecurityConfigurationBuilder.builder().clientSecret(SecurityConstants.SECRET_KEY)
-				.enableCsrfSupport(false).build();
-	}
-
-	protected void configure(HttpSecurity http) throws Exception {
-  http.authorizeRequests().antMatchers(SecurityConstants.
-  LOG_IN_URL).permitAll().anyRequest().authenticated()
-  .and().exceptionHandling().and().sessionManagement().sessionCreationPolicy(
-  SessionCreationPolicy.STATELESS) .and().csrf().disable();
-  http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
- 
-	}
-	@Bean
-	UiConfiguration uiConfig() {
-		return UiConfigurationBuilder.builder().validatorUrl(null).build();
-	}
+	
 }

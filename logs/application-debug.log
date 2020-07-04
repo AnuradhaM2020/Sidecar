@@ -2190,3 +2190,851 @@ Correct the classpath of your application so that it contains a single, compatib
 				getAllEmployees in EmployeeController
 [2020-07-01T19:38:11.011Z] [com.sidecar.codingtest.service.EmployeeSevice] [http-nio-8080-exec-3] [24] [INFO ]
 				getAllEmployees in EmployeeSevice
+[2020-07-01T19:45:11.011Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(3)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-07-01T19:45:11.011Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(3)-127.0.0.1] [598] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-01T19:45:11.011Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(3)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-01T19:45:11.011Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-127.0.0.1] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-07-01T19:45:11.011Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-127.0.0.1] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
+[2020-07-03T21:00:58.058Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ]
+				Starting CodingtestApplication on LAPTOP-7NCQASLP with PID 7492 (C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest\target\classes started by Anuradha in C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest)
+[2020-07-03T21:00:58.058Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-07-03T21:00:59.059Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-03T21:00:59.059Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ]
+				Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+[2020-07-03T21:00:59.059Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@51ac12ac' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-03T21:00:59.059Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-03T21:00:59.059Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-07-03T21:00:59.059Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-03T21:00:59.059Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-07-03T21:00:59.059Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-03T21:01:00.000Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-07-03T21:01:00.000Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ]
+				Root WebApplicationContext: initialization completed in 1765 ms
+[2020-07-03T21:01:00.000Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ]
+				Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-03T21:01:00.000Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-03T21:01:00.000Z] [org.hibernate.Version] [task-1] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-03T21:01:00.000Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-07-03T21:01:00.000Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [49] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-03T21:01:00.000Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-07-03T21:01:01.001Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-07-03T21:01:01.001Z] [org.hibernate.dialect.Dialect] [task-1] [172] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-07-03T21:01:02.002Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-03T21:01:02.002Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [416] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-03T21:01:03.003Z] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [main] [58] [INFO ]
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-07-03T21:01:03.003Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: Ant [pattern='/api/v1/sign-up'], []
+[2020-07-03T21:01:03.003Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@102aa5fc, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36885319, org.springframework.security.web.context.SecurityContextPersistenceFilter@546c30c2, org.springframework.security.web.header.HeaderWriterFilter@2d34866a, org.springframework.security.web.csrf.CsrfFilter@e4bb10b, org.springframework.security.web.authentication.logout.LogoutFilter@1ab502f6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b839f68, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7526bb18, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62a81453, org.springframework.security.web.session.SessionManagementFilter@6074d638, org.springframework.security.web.access.ExceptionTranslationFilter@62aee901, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44ae6b66]
+[2020-07-03T21:01:03.003Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62f6185a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c5d376c, org.springframework.security.web.header.HeaderWriterFilter@77e1dacd, org.springframework.security.web.authentication.logout.LogoutFilter@b548f51, com.sidecar.codingtest.filter.JwtFilter@38d525aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42f2cae8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bbc47c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34b462e0, org.springframework.security.web.session.SessionManagementFilter@690677de, org.springframework.security.web.access.ExceptionTranslationFilter@16890f00, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@fd0e118]
+[2020-07-03T21:01:03.003Z] [springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping] [main] [69] [INFO ]
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[2020-07-03T21:01:03.003Z] [com.sidecar.codingtest.configuration.SwaggerConfigurer] [main] [58] [INFO ]
+				inside SwaggerCinfigurer
+[2020-07-03T21:01:04.004Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-03T21:01:04.004Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-03T21:01:04.004Z] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [main] [93] [INFO ]
+				Documentation plugins bootstrapped
+[2020-07-03T21:01:04.004Z] [springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper] [main] [79] [INFO ]
+				Found 1 custom documentation plugin(s)
+[2020-07-03T21:01:04.004Z] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [main] [44] [INFO ]
+				Scanning for api listing references
+[2020-07-03T21:01:04.004Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [49] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-07-03T21:01:04.004Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [53] [INFO ]
+				Spring Data repositories initialized!
+[2020-07-03T21:01:04.004Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ]
+				Started CodingtestApplication in 6.387 seconds (JVM running for 7.166)
+[2020-07-03T21:01:06.006Z] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(1)-127.0.0.1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-03T21:01:06.006Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-07-03T21:01:06.006Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [547] [INFO ]
+				Completed initialization in 12 ms
+[2020-07-03T21:08:47.047Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(3)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-07-03T21:08:47.047Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(3)-127.0.0.1] [598] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-03T21:08:47.047Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(3)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-03T21:08:47.047Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-127.0.0.1] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-07-03T21:08:47.047Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-127.0.0.1] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
+[2020-07-03T21:10:01.001Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ]
+				Starting CodingtestApplication on LAPTOP-7NCQASLP with PID 21224 (C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest\target\classes started by Anuradha in C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest)
+[2020-07-03T21:10:01.001Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-07-03T21:10:02.002Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-03T21:10:02.002Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ]
+				Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+[2020-07-03T21:10:03.003Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7ccd611e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-03T21:10:03.003Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-03T21:10:03.003Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-07-03T21:10:03.003Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-03T21:10:03.003Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-07-03T21:10:03.003Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-03T21:10:03.003Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-07-03T21:10:03.003Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ]
+				Root WebApplicationContext: initialization completed in 1764 ms
+[2020-07-03T21:10:03.003Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ]
+				Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-03T21:10:03.003Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-03T21:10:03.003Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-07-03T21:10:03.003Z] [org.hibernate.Version] [task-1] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-03T21:10:04.004Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [49] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-03T21:10:04.004Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-07-03T21:10:04.004Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-07-03T21:10:04.004Z] [org.hibernate.dialect.Dialect] [task-1] [172] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-07-03T21:10:04.004Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-03T21:10:04.004Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [416] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-03T21:10:05.005Z] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [main] [58] [INFO ]
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-07-03T21:10:05.005Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: Ant [pattern='/api/v1/sign-up'], []
+[2020-07-03T21:10:05.005Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@7a0f43dc, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58a7ca42, org.springframework.security.web.context.SecurityContextPersistenceFilter@614361fa, org.springframework.security.web.header.HeaderWriterFilter@4c91f5bf, org.springframework.security.web.csrf.CsrfFilter@2ae7c1d, org.springframework.security.web.authentication.logout.LogoutFilter@25172993, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18f27a81, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@349996a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f9980e1, org.springframework.security.web.session.SessionManagementFilter@6ba08a09, org.springframework.security.web.access.ExceptionTranslationFilter@2d34866a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cdc8499]
+[2020-07-03T21:10:05.005Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@96dfcbb, org.springframework.security.web.context.SecurityContextPersistenceFilter@403cff1c, org.springframework.security.web.header.HeaderWriterFilter@615e7fe7, org.springframework.security.web.authentication.logout.LogoutFilter@fd0e118, com.sidecar.codingtest.filter.JwtFilter@7e3ee128, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19677add, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b548f51, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34ede267, org.springframework.security.web.session.SessionManagementFilter@144dc2f7, org.springframework.security.web.access.ExceptionTranslationFilter@3bbc47c9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e592ef2]
+[2020-07-03T21:10:05.005Z] [springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping] [main] [69] [INFO ]
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[2020-07-03T21:10:05.005Z] [com.sidecar.codingtest.configuration.SwaggerConfigurer] [main] [58] [INFO ]
+				inside SwaggerCinfigurer
+[2020-07-03T21:10:06.006Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-03T21:10:06.006Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-03T21:10:06.006Z] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [main] [93] [INFO ]
+				Documentation plugins bootstrapped
+[2020-07-03T21:10:06.006Z] [springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper] [main] [79] [INFO ]
+				Found 1 custom documentation plugin(s)
+[2020-07-03T21:10:06.006Z] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [main] [44] [INFO ]
+				Scanning for api listing references
+[2020-07-03T21:10:06.006Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [49] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-07-03T21:10:06.006Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [53] [INFO ]
+				Spring Data repositories initialized!
+[2020-07-03T21:10:06.006Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ]
+				Started CodingtestApplication in 5.272 seconds (JVM running for 5.991)
+[2020-07-03T21:10:07.007Z] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(1)-127.0.0.1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-03T21:10:07.007Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-07-03T21:10:07.007Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [547] [INFO ]
+				Completed initialization in 10 ms
+[2020-07-03T21:12:54.054Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(4)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-07-03T21:12:54.054Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(4)-127.0.0.1] [598] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-03T21:12:54.054Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(4)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-03T21:12:54.054Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(4)-127.0.0.1] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-07-03T21:12:54.054Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(4)-127.0.0.1] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
+[2020-07-03T21:13:12.012Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ]
+				Starting CodingtestApplication on LAPTOP-7NCQASLP with PID 18360 (C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest\target\classes started by Anuradha in C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest)
+[2020-07-03T21:13:12.012Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-07-03T21:13:13.013Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-03T21:13:13.013Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ]
+				Finished Spring Data repository scanning in 52ms. Found 2 JPA repository interfaces.
+[2020-07-03T21:13:14.014Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@72465eb2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-03T21:13:14.014Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-03T21:13:14.014Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-07-03T21:13:14.014Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-03T21:13:14.014Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-07-03T21:13:14.014Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-03T21:13:14.014Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-07-03T21:13:14.014Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ]
+				Root WebApplicationContext: initialization completed in 1739 ms
+[2020-07-03T21:13:14.014Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ]
+				Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-03T21:13:15.015Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-03T21:13:15.015Z] [org.hibernate.Version] [task-1] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-03T21:13:15.015Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-07-03T21:13:15.015Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [49] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-03T21:13:15.015Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-07-03T21:13:15.015Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-07-03T21:13:15.015Z] [org.hibernate.dialect.Dialect] [task-1] [172] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-07-03T21:13:15.015Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-03T21:13:15.015Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [416] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-03T21:13:16.016Z] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [main] [58] [INFO ]
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-07-03T21:13:16.016Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: Ant [pattern='/api/v1/sign-up'], []
+[2020-07-03T21:13:16.016Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@4a18e0f1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@687f62a5, org.springframework.security.web.context.SecurityContextPersistenceFilter@578d5d02, org.springframework.security.web.header.HeaderWriterFilter@2a60981c, org.springframework.security.web.csrf.CsrfFilter@94aeba1, org.springframework.security.web.authentication.logout.LogoutFilter@7ac90dab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fb70301, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50013a15, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7857cb1d, org.springframework.security.web.session.SessionManagementFilter@6e7fa4b0, org.springframework.security.web.access.ExceptionTranslationFilter@33b2ba25, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4301fa39]
+[2020-07-03T21:13:16.016Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f8f5d37, org.springframework.security.web.context.SecurityContextPersistenceFilter@632dc41, org.springframework.security.web.header.HeaderWriterFilter@3921e96f, org.springframework.security.web.authentication.logout.LogoutFilter@63ed5dae, com.sidecar.codingtest.filter.JwtFilter@602298b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35f6f105, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3aa1c45, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f9cd1e6, org.springframework.security.web.session.SessionManagementFilter@6fad5ace, org.springframework.security.web.access.ExceptionTranslationFilter@1fa58a48, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@d70dbeb]
+[2020-07-03T21:13:16.016Z] [springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping] [main] [69] [INFO ]
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[2020-07-03T21:13:16.016Z] [com.sidecar.codingtest.configuration.SwaggerConfigurer] [main] [58] [INFO ]
+				inside SwaggerCinfigurer
+[2020-07-03T21:13:17.017Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-03T21:13:17.017Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-03T21:13:17.017Z] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [main] [93] [INFO ]
+				Documentation plugins bootstrapped
+[2020-07-03T21:13:17.017Z] [springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper] [main] [79] [INFO ]
+				Found 1 custom documentation plugin(s)
+[2020-07-03T21:13:17.017Z] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [main] [44] [INFO ]
+				Scanning for api listing references
+[2020-07-03T21:13:17.017Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [49] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-07-03T21:13:17.017Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [53] [INFO ]
+				Spring Data repositories initialized!
+[2020-07-03T21:13:17.017Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ]
+				Started CodingtestApplication in 5.158 seconds (JVM running for 5.839)
+[2020-07-03T21:13:18.018Z] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(1)-127.0.0.1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-03T21:13:18.018Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-07-03T21:13:18.018Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [547] [INFO ]
+				Completed initialization in 9 ms
+[2020-07-03T21:14:30.030Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(3)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-07-03T21:14:30.030Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(3)-127.0.0.1] [598] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-03T21:14:30.030Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(3)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-03T21:14:30.030Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-127.0.0.1] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-07-03T21:14:30.030Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-127.0.0.1] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
+[2020-07-03T21:18:42.042Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ]
+				Starting CodingtestApplication on LAPTOP-7NCQASLP with PID 16740 (C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest\target\classes started by Anuradha in C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest)
+[2020-07-03T21:18:42.042Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-07-03T21:18:43.043Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-03T21:18:43.043Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ]
+				Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+[2020-07-03T21:18:43.043Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@478fb7dc' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-03T21:18:43.043Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-03T21:18:43.043Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-07-03T21:18:43.043Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-03T21:18:43.043Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-07-03T21:18:43.043Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-03T21:18:44.044Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-07-03T21:18:44.044Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ]
+				Root WebApplicationContext: initialization completed in 1737 ms
+[2020-07-03T21:18:44.044Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ]
+				Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-03T21:18:44.044Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-03T21:18:44.044Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-07-03T21:18:44.044Z] [org.hibernate.Version] [task-1] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-03T21:18:44.044Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [49] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-03T21:18:44.044Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-07-03T21:18:46.046Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-07-03T21:18:46.046Z] [org.hibernate.dialect.Dialect] [task-1] [172] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-07-03T21:18:46.046Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-03T21:18:46.046Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [416] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-03T21:18:46.046Z] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [main] [58] [INFO ]
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-07-03T21:18:47.047Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: Ant [pattern='/api/v1/sign-up'], []
+[2020-07-03T21:18:47.047Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@1fa58a48, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3921e96f, org.springframework.security.web.context.SecurityContextPersistenceFilter@64e657b0, org.springframework.security.web.header.HeaderWriterFilter@259aec72, org.springframework.security.web.csrf.CsrfFilter@471a9e8c, org.springframework.security.web.authentication.logout.LogoutFilter@1983a4e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5606d537, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32cde414, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fad5ace, org.springframework.security.web.session.SessionManagementFilter@7d3815f7, org.springframework.security.web.access.ExceptionTranslationFilter@580154b3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f71ae7f]
+[2020-07-03T21:18:47.047Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73b3ce31, org.springframework.security.web.context.SecurityContextPersistenceFilter@d70dbeb, org.springframework.security.web.header.HeaderWriterFilter@5f65e0c0, org.springframework.security.web.authentication.logout.LogoutFilter@4e933cf1, com.sidecar.codingtest.filter.JwtFilter@1fb6b8fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f8f5d37, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f9cd1e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4687366b, org.springframework.security.web.session.SessionManagementFilter@566cc6af, org.springframework.security.web.access.ExceptionTranslationFilter@4deca78, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d01ea33]
+[2020-07-03T21:18:47.047Z] [springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping] [main] [69] [INFO ]
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[2020-07-03T21:18:47.047Z] [com.sidecar.codingtest.configuration.SwaggerConfigurer] [main] [58] [INFO ]
+				inside SwaggerCinfigurer
+[2020-07-03T21:18:47.047Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-03T21:18:47.047Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-03T21:18:47.047Z] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [main] [93] [INFO ]
+				Documentation plugins bootstrapped
+[2020-07-03T21:18:47.047Z] [springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper] [main] [79] [INFO ]
+				Found 1 custom documentation plugin(s)
+[2020-07-03T21:18:48.048Z] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [main] [44] [INFO ]
+				Scanning for api listing references
+[2020-07-03T21:18:48.048Z] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator] [main] [41] [INFO ]
+				Generating unique operation named: deleteEmployeeUsingDELETE_1
+[2020-07-03T21:18:48.048Z] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator] [main] [41] [INFO ]
+				Generating unique operation named: handleUsingGET_1
+[2020-07-03T21:18:48.048Z] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator] [main] [41] [INFO ]
+				Generating unique operation named: handleUsingGET_2
+[2020-07-03T21:18:48.048Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [49] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-07-03T21:18:48.048Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [53] [INFO ]
+				Spring Data repositories initialized!
+[2020-07-03T21:18:48.048Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ]
+				Started CodingtestApplication in 6.146 seconds (JVM running for 6.796)
+[2020-07-03T21:18:48.048Z] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(1)-127.0.0.1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-03T21:18:48.048Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-07-03T21:18:48.048Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [547] [INFO ]
+				Completed initialization in 11 ms
+[2020-07-03T21:51:18.018Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(4)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-07-03T21:51:18.018Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(4)-127.0.0.1] [598] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-03T21:51:18.018Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(4)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-03T21:51:18.018Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(4)-127.0.0.1] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-07-03T21:51:18.018Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(4)-127.0.0.1] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
+[2020-07-03T22:09:21.021Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ]
+				Starting CodingtestApplication on LAPTOP-7NCQASLP with PID 14900 (C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest\target\classes started by Anuradha in C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest)
+[2020-07-03T22:09:21.021Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-07-03T22:09:22.022Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-03T22:09:22.022Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ]
+				Finished Spring Data repository scanning in 51ms. Found 2 JPA repository interfaces.
+[2020-07-03T22:09:22.022Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3e5beab5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-03T22:09:22.022Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-03T22:09:22.022Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-07-03T22:09:23.023Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-03T22:09:23.023Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-07-03T22:09:23.023Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-03T22:09:23.023Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-07-03T22:09:23.023Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ]
+				Root WebApplicationContext: initialization completed in 1756 ms
+[2020-07-03T22:09:23.023Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ]
+				Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-03T22:09:23.023Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-03T22:09:23.023Z] [org.hibernate.Version] [task-1] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-03T22:09:23.023Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-07-03T22:09:23.023Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [49] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-03T22:09:23.023Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-07-03T22:09:24.024Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-07-03T22:09:24.024Z] [org.hibernate.dialect.Dialect] [task-1] [172] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-07-03T22:09:24.024Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-03T22:09:24.024Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [416] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-03T22:09:25.025Z] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [main] [58] [INFO ]
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-07-03T22:09:25.025Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: Ant [pattern='/api/v1/sign-up'], []
+[2020-07-03T22:09:25.025Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@257b6c58, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ae32ff0, org.springframework.security.web.context.SecurityContextPersistenceFilter@189e96af, org.springframework.security.web.header.HeaderWriterFilter@15ee8861, org.springframework.security.web.csrf.CsrfFilter@59831016, org.springframework.security.web.authentication.logout.LogoutFilter@e27d97b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7fc56d61, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e5c52fa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c5cd2ea, org.springframework.security.web.session.SessionManagementFilter@44948ac6, org.springframework.security.web.access.ExceptionTranslationFilter@5868ea91, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a17acd4]
+[2020-07-03T22:09:25.025Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71f4aeb6, org.springframework.security.web.context.SecurityContextPersistenceFilter@58a7ca42, org.springframework.security.web.header.HeaderWriterFilter@eebd983, org.springframework.security.web.authentication.logout.LogoutFilter@77e1dacd, com.sidecar.codingtest.filter.JwtFilter@1186374c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f9980e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f6e6f50, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56976b8b, org.springframework.security.web.session.SessionManagementFilter@7a0f43dc, org.springframework.security.web.access.ExceptionTranslationFilter@4bab804f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b548f51]
+[2020-07-03T22:09:25.025Z] [springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping] [main] [69] [INFO ]
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[2020-07-03T22:09:25.025Z] [com.sidecar.codingtest.configuration.SwaggerConfigurer] [main] [58] [INFO ]
+				inside SwaggerCinfigurer
+[2020-07-03T22:09:25.025Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-03T22:09:26.026Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-03T22:09:26.026Z] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [main] [93] [INFO ]
+				Documentation plugins bootstrapped
+[2020-07-03T22:09:26.026Z] [springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper] [main] [79] [INFO ]
+				Found 1 custom documentation plugin(s)
+[2020-07-03T22:09:26.026Z] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [main] [44] [INFO ]
+				Scanning for api listing references
+[2020-07-03T22:09:26.026Z] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator] [main] [41] [INFO ]
+				Generating unique operation named: deleteEmployeeUsingDELETE_1
+[2020-07-03T22:09:26.026Z] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator] [main] [41] [INFO ]
+				Generating unique operation named: handleUsingGET_1
+[2020-07-03T22:09:26.026Z] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator] [main] [41] [INFO ]
+				Generating unique operation named: handleUsingGET_2
+[2020-07-03T22:09:26.026Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [49] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-07-03T22:09:26.026Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [53] [INFO ]
+				Spring Data repositories initialized!
+[2020-07-03T22:09:26.026Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ]
+				Started CodingtestApplication in 5.299 seconds (JVM running for 5.956)
+[2020-07-03T22:09:28.028Z] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(1)-127.0.0.1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-03T22:09:28.028Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-07-03T22:09:28.028Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [547] [INFO ]
+				Completed initialization in 10 ms
+[2020-07-03T22:18:37.037Z] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [787] [WARN ]
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m12s879ms730µs).
+[2020-07-03T22:22:04.004Z] [com.sidecar.codingtest.controller.UserController] [http-nio-8080-exec-7] [43] [INFO ]
+				in signUp()-- in UserController
+[2020-07-03T22:22:04.004Z] [com.sidecar.codingtest.service.UserDetailService] [http-nio-8080-exec-7] [26] [INFO ]
+				in usersignUp in UserDetailService
+[2020-07-03T22:22:49.049Z] [com.sidecar.codingtest.controller.UserController] [http-nio-8080-exec-5] [54] [INFO ]
+				In createAuthentication() -- UserController
+[2020-07-03T22:22:49.049Z] [com.sidecar.codingtest.service.UserDetailService] [http-nio-8080-exec-5] [35] [INFO ]
+				in loadUserByUsername -- in UserDetailService
+[2020-07-03T22:22:49.049Z] [com.sidecar.codingtest.service.UserDetailService] [http-nio-8080-exec-5] [35] [INFO ]
+				in loadUserByUsername -- in UserDetailService
+[2020-07-03T22:22:49.049Z] [com.sidecar.codingtest.controller.UserController] [http-nio-8080-exec-5] [71] [INFO ]
+				token Generated for the user
+[2020-07-03T23:46:36.036Z] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [787] [WARN ]
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m28s998ms293µs200ns).
+[2020-07-04T00:30:10.010Z] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [787] [WARN ]
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m4s748ms137µs200ns).
+[2020-07-04T00:33:05.005Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(5)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-07-04T00:33:05.005Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(5)-127.0.0.1] [598] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-04T00:33:05.005Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(5)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-04T00:33:05.005Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(5)-127.0.0.1] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-07-04T00:33:05.005Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(5)-127.0.0.1] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
+[2020-07-04T00:33:34.034Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ]
+				Starting CodingtestApplication on LAPTOP-7NCQASLP with PID 19964 (C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest\target\classes started by Anuradha in C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest)
+[2020-07-04T00:33:34.034Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-07-04T00:33:35.035Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-04T00:33:35.035Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ]
+				Finished Spring Data repository scanning in 50ms. Found 2 JPA repository interfaces.
+[2020-07-04T00:33:36.036Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3fde2209' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-04T00:33:36.036Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-04T00:33:36.036Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-07-04T00:33:36.036Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-04T00:33:36.036Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-07-04T00:33:36.036Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-04T00:33:36.036Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-07-04T00:33:36.036Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ]
+				Root WebApplicationContext: initialization completed in 1740 ms
+[2020-07-04T00:33:37.037Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ]
+				Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-04T00:33:37.037Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-04T00:33:37.037Z] [org.hibernate.Version] [task-1] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-04T00:33:37.037Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-07-04T00:33:37.037Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [49] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-04T00:33:37.037Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-07-04T00:33:37.037Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-07-04T00:33:37.037Z] [org.hibernate.dialect.Dialect] [task-1] [172] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-07-04T00:33:38.038Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-04T00:33:38.038Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [416] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-04T00:33:38.038Z] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [main] [58] [INFO ]
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-07-04T00:33:38.038Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: Ant [pattern='/api/v1/sign-up'], []
+[2020-07-04T00:33:38.038Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@2e64ae1a, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6eadd342, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f1574c, org.springframework.security.web.header.HeaderWriterFilter@51da7b08, org.springframework.security.web.csrf.CsrfFilter@32cec678, org.springframework.security.web.authentication.logout.LogoutFilter@34626d4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b87ea8b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63b0b3dd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30a20fb3, org.springframework.security.web.session.SessionManagementFilter@27682fa9, org.springframework.security.web.access.ExceptionTranslationFilter@6fe243a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ab502f6]
+[2020-07-04T00:33:38.038Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b5cf611, org.springframework.security.web.context.SecurityContextPersistenceFilter@47f39279, org.springframework.security.web.header.HeaderWriterFilter@1614499b, org.springframework.security.web.authentication.logout.LogoutFilter@7f8f5d37, com.sidecar.codingtest.filter.JwtFilter@2b9b17ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63ed5dae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@578198d9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d01ea33, org.springframework.security.web.session.SessionManagementFilter@1468fc85, org.springframework.security.web.access.ExceptionTranslationFilter@6d45dd4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c7f2fdb]
+[2020-07-04T00:33:38.038Z] [springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping] [main] [69] [INFO ]
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[2020-07-04T00:33:38.038Z] [com.sidecar.codingtest.configuration.SwaggerConfigurer] [main] [58] [INFO ]
+				inside SwaggerCinfigurer
+[2020-07-04T00:33:39.039Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-04T00:33:39.039Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-04T00:33:39.039Z] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [main] [93] [INFO ]
+				Documentation plugins bootstrapped
+[2020-07-04T00:33:39.039Z] [springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper] [main] [79] [INFO ]
+				Found 1 custom documentation plugin(s)
+[2020-07-04T00:33:39.039Z] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [main] [44] [INFO ]
+				Scanning for api listing references
+[2020-07-04T00:33:39.039Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [49] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-07-04T00:33:39.039Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [53] [INFO ]
+				Spring Data repositories initialized!
+[2020-07-04T00:33:39.039Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ]
+				Started CodingtestApplication in 5.07 seconds (JVM running for 5.731)
+[2020-07-04T00:33:41.041Z] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(1)-127.0.0.1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-04T00:33:41.041Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-07-04T00:33:41.041Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [547] [INFO ]
+				Completed initialization in 16 ms
+[2020-07-04T00:35:35.035Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(3)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-07-04T00:35:35.035Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(3)-127.0.0.1] [598] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-04T00:35:35.035Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(3)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-04T00:35:35.035Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-127.0.0.1] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-07-04T00:35:35.035Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-127.0.0.1] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
+[2020-07-04T00:36:00.000Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ]
+				Starting CodingtestApplication on LAPTOP-7NCQASLP with PID 14324 (C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest\target\classes started by Anuradha in C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest)
+[2020-07-04T00:36:00.000Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-07-04T00:36:01.001Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-04T00:36:01.001Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ]
+				Finished Spring Data repository scanning in 49ms. Found 2 JPA repository interfaces.
+[2020-07-04T00:36:01.001Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3c54ddec' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-04T00:36:01.001Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-04T00:36:02.002Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-07-04T00:36:02.002Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-04T00:36:02.002Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-07-04T00:36:02.002Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-04T00:36:02.002Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-07-04T00:36:02.002Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ]
+				Root WebApplicationContext: initialization completed in 1741 ms
+[2020-07-04T00:36:02.002Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ]
+				Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-04T00:36:02.002Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-04T00:36:02.002Z] [org.hibernate.Version] [task-1] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-04T00:36:02.002Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-07-04T00:36:02.002Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [49] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-04T00:36:02.002Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-07-04T00:36:03.003Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-07-04T00:36:03.003Z] [org.hibernate.dialect.Dialect] [task-1] [172] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-07-04T00:36:03.003Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-04T00:36:03.003Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [416] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-04T00:36:03.003Z] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [main] [58] [INFO ]
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-07-04T00:36:04.004Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: Ant [pattern='/api/v1/sign-up'], []
+[2020-07-04T00:36:04.004Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@5b32e0b1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d1d85d0, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e7fa4b0, org.springframework.security.web.header.HeaderWriterFilter@6ad198c9, org.springframework.security.web.csrf.CsrfFilter@5a96f3cb, org.springframework.security.web.authentication.logout.LogoutFilter@2555a986, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@259aec72, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fb70301, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@115a7e51, org.springframework.security.web.session.SessionManagementFilter@495bc9e7, org.springframework.security.web.access.ExceptionTranslationFilter@4cb773c5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c7744c1]
+[2020-07-04T00:36:04.004Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63ed5dae, org.springframework.security.web.context.SecurityContextPersistenceFilter@682d9f21, org.springframework.security.web.header.HeaderWriterFilter@7646c9f5, org.springframework.security.web.authentication.logout.LogoutFilter@1fa58a48, com.sidecar.codingtest.filter.JwtFilter@5896cb9c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e64ae1a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6eadd342, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@578198d9, org.springframework.security.web.session.SessionManagementFilter@7b54a0a4, org.springframework.security.web.access.ExceptionTranslationFilter@7857cb1d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47f39279]
+[2020-07-04T00:36:04.004Z] [springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping] [main] [69] [INFO ]
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[2020-07-04T00:36:04.004Z] [com.sidecar.codingtest.configuration.SwaggerConfigurer] [main] [58] [INFO ]
+				inside SwaggerCinfigurer
+[2020-07-04T00:36:04.004Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-04T00:36:04.004Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-04T00:36:04.004Z] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [main] [93] [INFO ]
+				Documentation plugins bootstrapped
+[2020-07-04T00:36:04.004Z] [springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper] [main] [79] [INFO ]
+				Found 1 custom documentation plugin(s)
+[2020-07-04T00:36:05.005Z] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [main] [44] [INFO ]
+				Scanning for api listing references
+[2020-07-04T00:36:05.005Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [49] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-07-04T00:36:05.005Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [53] [INFO ]
+				Spring Data repositories initialized!
+[2020-07-04T00:36:05.005Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ]
+				Started CodingtestApplication in 5.126 seconds (JVM running for 5.815)
+[2020-07-04T00:36:06.006Z] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(1)-127.0.0.1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-04T00:36:06.006Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-07-04T00:36:06.006Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [547] [INFO ]
+				Completed initialization in 10 ms
+[2020-07-04T00:37:23.023Z] [com.sidecar.codingtest.controller.UserController] [http-nio-8080-exec-8] [54] [INFO ]
+				In createAuthentication() -- UserController
+[2020-07-04T00:37:23.023Z] [com.sidecar.codingtest.service.UserDetailService] [http-nio-8080-exec-8] [35] [INFO ]
+				in loadUserByUsername -- in UserDetailService
+[2020-07-04T00:37:23.023Z] [com.sidecar.codingtest.service.UserDetailService] [http-nio-8080-exec-8] [35] [INFO ]
+				in loadUserByUsername -- in UserDetailService
+[2020-07-04T00:37:23.023Z] [com.sidecar.codingtest.controller.UserController] [http-nio-8080-exec-8] [71] [INFO ]
+				token Generated for the user
+[2020-07-04T00:43:01.001Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(3)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-07-04T00:43:02.002Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(3)-127.0.0.1] [598] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-04T00:43:02.002Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(3)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-04T00:43:02.002Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-127.0.0.1] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-07-04T00:43:02.002Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-127.0.0.1] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
+[2020-07-04T00:53:28.028Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ]
+				Starting CodingtestApplication on LAPTOP-7NCQASLP with PID 13564 (C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest\target\classes started by Anuradha in C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest)
+[2020-07-04T00:53:28.028Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-07-04T00:53:29.029Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-04T00:53:29.029Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ]
+				Finished Spring Data repository scanning in 50ms. Found 2 JPA repository interfaces.
+[2020-07-04T00:53:29.029Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@59c43561' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-04T00:53:29.029Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-04T00:53:30.030Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-07-04T00:53:30.030Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-04T00:53:30.030Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-07-04T00:53:30.030Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-04T00:53:30.030Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-07-04T00:53:30.030Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ]
+				Root WebApplicationContext: initialization completed in 1759 ms
+[2020-07-04T00:53:30.030Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ]
+				Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-04T00:53:30.030Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-04T00:53:30.030Z] [org.hibernate.Version] [task-1] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-04T00:53:30.030Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-07-04T00:53:30.030Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [49] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-04T00:53:30.030Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-07-04T00:53:31.031Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-07-04T00:53:31.031Z] [org.hibernate.dialect.Dialect] [task-1] [172] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-07-04T00:53:31.031Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-04T00:53:31.031Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [416] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-04T00:53:31.031Z] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [main] [58] [INFO ]
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-07-04T00:53:32.032Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: Ant [pattern='/api/v1/sign-up'], []
+[2020-07-04T00:53:32.032Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@4e343265, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4301fa39, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f1fb139, org.springframework.security.web.header.HeaderWriterFilter@6f27730b, org.springframework.security.web.csrf.CsrfFilter@18c60d81, org.springframework.security.web.authentication.logout.LogoutFilter@5606d537, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@183a508b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79fc4e99, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73dd0f23, org.springframework.security.web.session.SessionManagementFilter@481bae3f, org.springframework.security.web.access.ExceptionTranslationFilter@6e7f29d5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@624494d4]
+[2020-07-04T00:53:32.032Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30a20fb3, org.springframework.security.web.context.SecurityContextPersistenceFilter@d1d85d0, org.springframework.security.web.header.HeaderWriterFilter@3f71ae7f, org.springframework.security.web.authentication.logout.LogoutFilter@5a99543b, com.sidecar.codingtest.filter.JwtFilter@1f39269d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@115a7e51, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23ea3853, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34f24a11, org.springframework.security.web.session.SessionManagementFilter@5b32e0b1, org.springframework.security.web.access.ExceptionTranslationFilter@25172993, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6eadd342]
+[2020-07-04T00:53:32.032Z] [springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping] [main] [69] [INFO ]
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[2020-07-04T00:53:32.032Z] [com.sidecar.codingtest.configuration.SwaggerConfigurer] [main] [61] [INFO ]
+				inside SwaggerCinfigurer
+[2020-07-04T00:53:32.032Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-04T00:53:32.032Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-04T00:53:32.032Z] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [main] [93] [INFO ]
+				Documentation plugins bootstrapped
+[2020-07-04T00:53:32.032Z] [springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper] [main] [79] [INFO ]
+				Found 1 custom documentation plugin(s)
+[2020-07-04T00:53:33.033Z] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [main] [44] [INFO ]
+				Scanning for api listing references
+[2020-07-04T00:53:33.033Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [49] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-07-04T00:53:33.033Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [53] [INFO ]
+				Spring Data repositories initialized!
+[2020-07-04T00:53:33.033Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ]
+				Started CodingtestApplication in 5.108 seconds (JVM running for 5.766)
+[2020-07-04T00:53:35.035Z] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(1)-127.0.0.1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-04T00:53:35.035Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-07-04T00:53:35.035Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [547] [INFO ]
+				Completed initialization in 12 ms
+[2020-07-04T00:55:02.002Z] [com.sidecar.codingtest.controller.UserController] [http-nio-8080-exec-8] [43] [INFO ]
+				in signUp()-- in UserController
+[2020-07-04T00:55:02.002Z] [com.sidecar.codingtest.service.UserDetailService] [http-nio-8080-exec-8] [26] [INFO ]
+				in usersignUp in UserDetailService
+[2020-07-04T00:55:58.058Z] [com.sidecar.codingtest.controller.UserController] [http-nio-8080-exec-7] [54] [INFO ]
+				In createAuthentication() -- UserController
+[2020-07-04T00:55:58.058Z] [com.sidecar.codingtest.service.UserDetailService] [http-nio-8080-exec-7] [35] [INFO ]
+				in loadUserByUsername -- in UserDetailService
+[2020-07-04T00:55:59.059Z] [com.sidecar.codingtest.service.UserDetailService] [http-nio-8080-exec-7] [35] [INFO ]
+				in loadUserByUsername -- in UserDetailService
+[2020-07-04T00:55:59.059Z] [com.sidecar.codingtest.controller.UserController] [http-nio-8080-exec-7] [71] [INFO ]
+				token Generated for the user
+[2020-07-04T00:57:58.058Z] [com.sidecar.codingtest.service.UserDetailService] [http-nio-8080-exec-10] [35] [INFO ]
+				in loadUserByUsername -- in UserDetailService
+[2020-07-04T00:57:58.058Z] [com.sidecar.codingtest.controller.EmployeeController] [http-nio-8080-exec-10] [33] [INFO ]
+				getAllEmployees in EmployeeController
+[2020-07-04T00:57:58.058Z] [com.sidecar.codingtest.service.EmployeeSevice] [http-nio-8080-exec-10] [24] [INFO ]
+				getAllEmployees in EmployeeSevice
+[2020-07-04T00:58:57.057Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(4)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-07-04T00:58:57.057Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(4)-127.0.0.1] [598] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-04T00:58:57.057Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(4)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-04T00:58:57.057Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(4)-127.0.0.1] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-07-04T00:58:57.057Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(4)-127.0.0.1] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
+[2020-07-04T01:23:41.041Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ]
+				Starting CodingtestApplication on LAPTOP-7NCQASLP with PID 9660 (C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest\target\classes started by Anuradha in C:\Users\Anuradha\eclipse-workspace-sidecar\codingtest)
+[2020-07-04T01:23:41.041Z] [org.springframework.boot.SpringApplication] [main] [651] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-07-04T01:23:42.042Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-04T01:23:42.042Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ]
+				Finished Spring Data repository scanning in 55ms. Found 2 JPA repository interfaces.
+[2020-07-04T01:23:42.042Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5fef0c19' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-04T01:23:42.042Z] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [main] [335] [INFO ]
+				Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-04T01:23:43.043Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-07-04T01:23:43.043Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-04T01:23:43.043Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-07-04T01:23:43.043Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-04T01:23:43.043Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-07-04T01:23:43.043Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ]
+				Root WebApplicationContext: initialization completed in 1782 ms
+[2020-07-04T01:23:43.043Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ]
+				Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-04T01:23:43.043Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-04T01:23:43.043Z] [org.hibernate.Version] [task-1] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-04T01:23:43.043Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-07-04T01:23:43.043Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [49] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-04T01:23:44.044Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-07-04T01:23:44.044Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-07-04T01:23:44.044Z] [org.hibernate.dialect.Dialect] [task-1] [172] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-07-04T01:23:44.044Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-04T01:23:44.044Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [416] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-04T01:23:45.045Z] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [main] [58] [INFO ]
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+[2020-07-04T01:23:45.045Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: Ant [pattern='/api/v1/sign-up'], []
+[2020-07-04T01:23:45.045Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest$EndpointRequestMatcher@34ede267, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6bf77ee, org.springframework.security.web.context.SecurityContextPersistenceFilter@73dd0f23, org.springframework.security.web.header.HeaderWriterFilter@30bf881e, org.springframework.security.web.csrf.CsrfFilter@4c91f5bf, org.springframework.security.web.authentication.logout.LogoutFilter@3aa1c45, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b800a11, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d1d85d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51c6e775, org.springframework.security.web.session.SessionManagementFilter@e27d97b, org.springframework.security.web.access.ExceptionTranslationFilter@654c2f81, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a71ebf1]
+[2020-07-04T01:23:45.045Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ]
+				Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@571c2ed8, org.springframework.security.web.context.SecurityContextPersistenceFilter@188ae8d2, org.springframework.security.web.header.HeaderWriterFilter@11174bf, org.springframework.security.web.authentication.logout.LogoutFilter@4b9ed99d, com.sidecar.codingtest.filter.JwtFilter@1584c019, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a522157, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@706c062e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5810772a, org.springframework.security.web.session.SessionManagementFilter@4f0c1409, org.springframework.security.web.access.ExceptionTranslationFilter@cbdc0f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@279ab15e]
+[2020-07-04T01:23:45.045Z] [springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping] [main] [69] [INFO ]
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+[2020-07-04T01:23:45.045Z] [com.sidecar.codingtest.configuration.SwaggerConfigurer] [main] [61] [INFO ]
+				inside SwaggerCinfigurer
+[2020-07-04T01:23:46.046Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-04T01:23:46.046Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-04T01:23:46.046Z] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [main] [93] [INFO ]
+				Documentation plugins bootstrapped
+[2020-07-04T01:23:46.046Z] [springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper] [main] [79] [INFO ]
+				Found 1 custom documentation plugin(s)
+[2020-07-04T01:23:46.046Z] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [main] [44] [INFO ]
+				Scanning for api listing references
+[2020-07-04T01:23:46.046Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [49] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-07-04T01:23:46.046Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [main] [53] [INFO ]
+				Spring Data repositories initialized!
+[2020-07-04T01:23:46.046Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ]
+				Started CodingtestApplication in 5.241 seconds (JVM running for 5.92)
+[2020-07-04T01:23:47.047Z] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(1)-127.0.0.1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-04T01:23:47.047Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-07-04T01:23:47.047Z] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(1)-127.0.0.1] [547] [INFO ]
+				Completed initialization in 10 ms

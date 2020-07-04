@@ -22,6 +22,8 @@ import com.sidecar.codingtest.model.AuthenticationResponse;
 import com.sidecar.codingtest.service.JwtUtil;
 import com.sidecar.codingtest.service.UserDetailService;
 
+import io.swagger.annotations.ApiOperation;
+
 @RestController
 @RequestMapping("/api/v1")
 public class UserController {
@@ -36,7 +38,7 @@ public class UserController {
 	BCryptPasswordEncoder bCryptPasswordEncoder;
 
 	private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
-
+	@ApiOperation(value="/sign-up", nickname = "User Signup before get Auhenticate")
 	// signup not required authentication
 	@PostMapping("/sign-up")
 	public ResponseEntity<UserVO> signUp(@RequestBody UserVO user) {
@@ -47,8 +49,7 @@ public class UserController {
 		return new ResponseEntity<UserVO>(userVo, HttpStatus.OK);
 	}
 
-	// @ApiOperation(value = "", authorizations = { @Authorization(value="jwtToken")
-	// })
+	 @ApiOperation(value = "/authenticate", nickname =  "Authentication and Authorization Process")
 	@RequestMapping(value = "/authenticate", method = RequestMethod.POST)
 	public ResponseEntity<?> createAuthentication(@RequestBody AuthenticationRequest authRequest) throws Exception {
 		LOGGER.info("In createAuthentication() -- UserController");
