@@ -73,6 +73,7 @@ public class SwaggerConfigurer {
 				.securitySchemes(Arrays.asList(apiKey()))
 				.useDefaultResponseMessages(false).globalResponseMessage(RequestMethod.GET, globalResponses)
 				.globalResponseMessage(RequestMethod.POST, globalResponses)
+				.globalResponseMessage(RequestMethod.PUT, globalResponses)
 				.globalResponseMessage(RequestMethod.DELETE, globalResponses)
 				.securityContexts(Collections.singletonList(securityContext()));
 	}

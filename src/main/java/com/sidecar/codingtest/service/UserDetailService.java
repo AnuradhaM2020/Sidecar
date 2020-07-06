@@ -22,10 +22,19 @@ public class UserDetailService implements UserDetailsService{
 	
 	private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 	
-		public UserVO usersignUp(UserVO user){
+		public UserVO usersignUp(UserVO user) throws Exception{
 			LOGGER.info("in usersignUp in UserDetailService");
 			UserEntity entity = convertToUserEntity(user);
-			entity = userRepository.save(entity);
+			UserEntity userEntity = userRepository.findByUsername(entity.getUsername());
+			if(userEntity == null) {
+				entity = userRepository.save(entity);
+							
+			}else {
+				LOGGER.error("User with "+user.getUsername()+" name is already exist ");
+				throw new Exception("Username is already exist");
+			}
+			
+			
 			UserVO userVO = convertToUserVO(entity);
 			return userVO;
 			}

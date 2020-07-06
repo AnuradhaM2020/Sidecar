@@ -18,6 +18,17 @@ public class EmployeeSevice {
 	
 	@Autowired
 	private EmployeeRepository employeeRepository;
+	
+	/*
+	 * private RedisTemplate<String, Object> redisTemplate; private
+	 * HashOperations<String, Integer, Employee> hashOperations; private final
+	 * static String TABLE_NAME = "Employee";
+	 */
+	
+	/*
+	 * @PostConstruct public void initializeHashOperation(){ hashOperations =
+	 * redisTemplate.opsForHash(); }
+	 */
 	private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 	
 	public List<EmployeeVO> getAllEmployees(){
@@ -32,7 +43,9 @@ public class EmployeeSevice {
 	
 	  public EmployeeVO getEmployee(int id){
 		  LOGGER.info("getEmployee in EmployeeSevice");
+	//	  hashOperations.get(TABLE_NAME, id);
 		  Employee employee = employeeRepository.findById(id).get();
+		 
 			  return  convertToVO(employee);
 		  }
 	 
@@ -41,6 +54,7 @@ public class EmployeeSevice {
 		  LOGGER.info("addEmployee in EmployeeSevice");
 		Employee employee = convertToEntity(employeeVo);
 		employee = employeeRepository.save(employee);
+	//	hashOperations.put(TABLE_NAME, employee.getId(), employee);
 		EmployeeVO empVo = convertToVO(employee);
 		return empVo;
 	}
@@ -48,6 +62,7 @@ public class EmployeeSevice {
 	public EmployeeVO updateEmployee(int id, EmployeeVO employeevo){
 		  LOGGER.info("updateEmployee in EmployeeSevice");
 		Employee employee = convertToEntity(employeevo);
+	//	hashOperations.put(TABLE_NAME, employee.getId(), employee);
 		employeeRepository.save(employee);
 		EmployeeVO empVo = convertToVO(employee);
 		return empVo;

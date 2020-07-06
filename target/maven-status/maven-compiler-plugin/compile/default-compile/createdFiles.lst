@@ -16,4 +16,5 @@ com\sidecar\codingtest\model\UserEntity.class
 com\sidecar\codingtest\VO\EmployeeVO.class
 com\sidecar\codingtest\configuration\SwaggerConfigurer.class
 com\sidecar\codingtest\CodingtestApplication.class
+com\sidecar\codingtest\configuration\CustomResponseEntity.class
 com\sidecar\codingtest\service\EmployeeSevice.class

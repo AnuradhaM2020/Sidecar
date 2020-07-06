@@ -7,6 +7,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -28,7 +30,7 @@ public class JwtFilter extends OncePerRequestFilter {
 	JwtUtil jwtUtil;
 	@Autowired
 	UserDetailService userDetailService;
-
+	private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
 			throws ServletException, IOException {
@@ -43,12 +45,10 @@ public class JwtFilter extends OncePerRequestFilter {
 			try {
 				username = jwtUtil.extractUsername(jwtToken);
 			} catch (IllegalArgumentException e) {
-				System.out.println("Unable to get the jwt token");
+				LOGGER.error("Unable to get the jwt token",e);
 			} catch (ExpiredJwtException e) {
-				System.out.println("Jwt token expired");
+				LOGGER.error("Jwt token expired", e);
 			}
-		} else {
-			System.out.println("");
 		}
 
 		// validate token

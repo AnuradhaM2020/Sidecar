@@ -38,15 +38,21 @@ public class UserController {
 	BCryptPasswordEncoder bCryptPasswordEncoder;
 
 	private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
+	
 	@ApiOperation(value="/sign-up", nickname = "User Signup before get Auhenticate")
 	// signup not required authentication
 	@PostMapping("/sign-up")
 	public ResponseEntity<UserVO> signUp(@RequestBody UserVO user) {
 		LOGGER.info("in signUp()-- in UserController");
 		user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
-		UserVO userVo = userDetailService.usersignUp(user);
-
-		return new ResponseEntity<UserVO>(userVo, HttpStatus.OK);
+		UserVO userVo = null;
+		try {
+			userVo = userDetailService.usersignUp(user);
+		} catch (Exception e) {
+			LOGGER.error("Username Already Exist",e);
+			return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+		}
+		return new ResponseEntity<UserVO>(userVo, HttpStatus.CREATED);
 	}
 
 	 @ApiOperation(value = "/authenticate", nickname =  "Authentication and Authorization Process")
